@@ -2,9 +2,16 @@
 
 # 🦖 Olá! Eu sou o Thomas  
 
-**QA Engineer | Testes Manuais & Automação**  
+**Analista de Qualidade de Software · QA Engineer**  
 
-*"Simplicidade é o mais alto nível da elegância."*  
+*"Antes de reportar bugs, eu já administrava crises. A lógica continua a mesma — só o palco mudou."*  
+
+<a href="https://thomastds.github.io/portfolio/">
+  <img src="https://img.shields.io/badge/Portfólio-2b2b2b?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfólio"/>
+</a>
+<a href="https://thomastds.github.io/portfolio/assets/cv/Thomas_Teixeira_Curriculo.pdf">
+  <img src="https://img.shields.io/badge/Currículo-PDF-D14836?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Currículo"/>
+</a>
 
 </div>
 
@@ -12,59 +19,95 @@
 
 ## 🔍 Sobre mim  
 
-Minha relação com tecnologia começou cedo, mexendo em fan games, MODs e ROM hacks. Para equilibrar essa bagagem técnica com uma visão humana e estratégica, me formei em Relações Públicas — uma escolha que transformou minha capacidade de alinhar processos, negócios e pessoas.
+Minha relação com tecnologia começou cedo, mexendo em fan games, MODs e ROM hacks. Para equilibrar essa bagagem técnica com uma visão humana e estratégica, me formei em Relações Públicas pela UFSM — e passei alguns anos em consultoria empresarial, gestão de projetos e pré-vendas antes de chegar em QA. Gerenciar crises e prevenir bugs têm mais em comum do que parece: os dois dependem de antecipar riscos e comunicar bem com todo mundo envolvido.
 
-Trabalho no ecossistema de Quality Assurance reduzindo o espaço entre a dúvida e a entrega confiável. Construí minha base no teste manual, evoluí para automação e hoje atuo no ciclo completo de QA: validação de regras de negócio, consultas SQL, automação de UI/API, testes de contrato e rotinas de CI/CD, além de incorporar práticas iniciais de segurança de aplicações.
+Na **Jetimob**, evoluí de Estagiário de Testes para **Analista de QA**, atuando em CRM, ERP, CMS, website e portal imobiliário. Construí minha base no teste manual, evoluí para automação com **Playwright + TypeScript** e passei a tratar testes manuais e automatizados como uma operação só: BDD, Page Object Model, testes de API, consultas SQL em PostgreSQL e suítes rodando em CI/CD, com estratégia Shift-Left.
 
-Também integro agentes de IA no fluxo de trabalho para automatizar o que é operacional — como checagens em Pull Requests e suporte em code reviews via GitHub Actions —, garantindo foco no que traz valor real para o produto. 
+Também uso IA no dia a dia para tirar o trabalho repetitivo do caminho e deixar o foco no que traz valor real para o produto:
+
+- **Cenários de teste** — Transformo histórias de usuário, regras de negócio e fluxos em cenários bem estruturados em uma fração do tempo que levaria para montá-los à mão.
+- **Leitura de requisitos** — Reviso especificações para achar pontos ambíguos, contraditórios ou incompletos antes de o ciclo de testes começar.
+- **Priorização por risco** — Coloco na frente os cenários que mais impactam o sistema, para investir esforço onde uma falha custaria mais caro.
+- **Rastreabilidade** — Ligo cada cenário ao requisito que o originou, deixando a cobertura fácil de auditar e fiel ao escopo combinado.
+
+---
+
+## 📈 Alguns resultados  
+
+- ✅ **+90%** dos bugs identificados antes de chegar em produção  
+- 🤖 **+100 testes automatizados** rodando em pipeline  
+- 🚀 Lançamento de **ERP e CMS sem nenhum bug reportado por clientes**  
+- 📑 **28 páginas** de evidências de bugs documentadas no ERP antes do lançamento, entregue com backlog de bugs zerado  
+- 🗄️ Bug crítico encontrado via SQL que permitia locar um imóvel que já tinha contrato ativo  
 
 ---
 
 ## 🧠 No que eu manjo  
 
-- 🧪 **Testes manuais** — Black Box, White Box, Smoke Testing, Exploratórios, Regressão e mais 
-- 🤖 **Automação de testes** — UI, API e contratos, com Playwright, Cypress e Selenium  
-- 🗄️ **Banco de dados** — PostgreSQL & SQL  
-- 🔁 **CI/CD & Docker** — Esteiras de testes integradas ao CI/CD e ambientes executados em containers Docker. 
-- 📋 **Gestão de bugs** — Acompanhamento de releases e defeitos com JIRA, Azure DevOps, TestRail  
-- 💻 **Linguagens** — TypeScript, JavaScript, PHP, Python e CSS  
-- 🧩 **Agentes de IA** — Integração de GitHub Actions e agentes de IA para code review automatizado e análise preliminar de segurança.
+- 🧪 **Testes manuais** — Funcionais, Exploratórios (SBTM), Black Box, White Box, Smoke e Regressão  
+- 🤖 **Automação Web** — Playwright, Selenium e Cucumber (BDD) em Page Object Model  
+- 📱 **Automação Mobile** — Appium + WebdriverIO  
+- 🔌 **Testes de API e contrato** — Postman/Newman, OpenAPI/Swagger e validação de schemas com Zod  
+- 🗄️ **Banco de dados** — SQL & PostgreSQL  
+- 🔁 **CI/CD & Docker** — Suítes integradas ao GitHub Actions e ambientes em containers  
+- 📋 **Gestão de bugs** — Jira, Azure DevOps e TestRail  
+- 💻 **Linguagens** — TypeScript, JavaScript, Python, HTML e CSS  
+- 🧩 **IA aplicada a QA** — Geração de cenários, análise de requisitos, priorização por risco e rastreabilidade  
+- 🌎 **Idiomas** — Português (nativo) e Inglês (C1 Advanced — EF SET)  
 
 ---
 
 ## 🚀 Projetos em destaque
 
-**[qa-playwright-sd](https://github.com/ThomasTDS/qa-playwright-sd)** — Automação E2E com Playwright em arquitetura POM (Page Object Model), cobrindo fluxos críticos e cenários de exceção estruturados em BDD.
+| Projeto | O que é | Stack | Testes |
+|---|---|---|---|
+| **[qa-playwright-sd](https://github.com/ThomasTDS/qa-playwright-sd)** ⭐ | E2E no automationexercise.com: login, cadastro, carrinho, checkout, contato, newsletter e verificações de segurança | Playwright · TypeScript · Cucumber · POM · GitHub Actions | 27 |
+| **[qa-pytest-sd](https://github.com/ThomasTDS/qa-pytest-sd)** | Versão em Python do qa-playwright-sd | Python · Pytest · Playwright · BDD | 48 |
+| **[qa-selenium-sd](https://github.com/ThomasTDS/qa-selenium-sd)** | E2E com Selenium WebDriver em BDD | Selenium · Cucumber · POM | 17 |
+| **[restful-booker](https://github.com/ThomasTDS/restful-booker)** | Testes de API na Restful Booker com validação de schema | Playwright · Cucumber · Zod · GitHub Actions | 12 |
+| **[qa-api-python](https://github.com/ThomasTDS/qa-api-python)** | Testes de API em Python com BDD e API Clients | Python · Pytest | 33 |
+| **[qa-api-swagger](https://github.com/ThomasTDS/qa-api-swagger)** | Testes de contrato e API na GoRest via OpenAPI | Swagger · Postman · Newman · CI | 60 |
+| **[appium-automation-framework](https://github.com/ThomasTDS/appium-automation-framework)** | Framework de automação mobile em BDD | Appium · WebdriverIO · Cucumber · POM | 30 |
+| **[qa-manual-testing](https://github.com/ThomasTDS/qa-manual-testing)** | Design de casos de teste, testes exploratórios (SBTM) e report de defeitos | Testes Manuais · SBTM | 30 casos |
 
-**[restful-booker](https://github.com/ThomasTDS/restful-booker)** — Testes de API com Playwright: validação de fluxos de autenticação, operações CRUD e controle de permissões e autorização.
-
-**[qa-selenium-sd](https://github.com/ThomasTDS/qa-selenium-sd)** — Automação E2E com Selenium estruturada em Page Object Model (POM) para validação de fluxos funcionais.
+👉 Detalhes e exemplos de cenários no **[portfólio](https://thomastds.github.io/portfolio/)**.
 
 ---
 
 ## 🛠️ Tecnologias  
 
 <div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40"/>
 </div>
 
-### 🤖 Automação de testes  
+### 🤖 Testes & Qualidade  
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" alt="Playwright" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg" alt="Cypress" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40"/>
-  <img src="https://img.shields.io/badge/CI%2FCD-000000?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI/CD"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cucumber/cucumber-plain.svg" alt="Cucumber" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" alt="Pytest" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" alt="Swagger" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuredevops/azuredevops-original.svg" alt="Azure DevOps" width="40" height="40"/>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Appium-662CAB?style=for-the-badge&logo=appium&logoColor=white" alt="Appium"/>
+  <img src="https://img.shields.io/badge/WebdriverIO-EA5906?style=for-the-badge&logo=webdriverio&logoColor=white" alt="WebdriverIO"/>
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="Zod"/>
+  <img src="https://img.shields.io/badge/Newman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Newman"/>
 </div>
 
 ---
@@ -72,6 +115,7 @@ Também integro agentes de IA no fluxo de trabalho para automatizar o que é ope
 ## 🌱 Em evolução  
 
 <div align="center">
+  <img src="https://img.shields.io/badge/Quality%20Engineering-2b2b2b?style=for-the-badge&logo=githubactions&logoColor=white" alt="Quality Engineering"/>
   <img src="https://img.shields.io/badge/Security%20Testing-2b2b2b?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Security Testing"/>
   <img src="https://img.shields.io/badge/AI%20Agents%20%26%20Skills-2b2b2b?style=for-the-badge&logo=robotframework&logoColor=white" alt="AI Agents & Skills"/>
 </div>
@@ -89,7 +133,12 @@ Também integro agentes de IA no fluxo de trabalho para automatizar o que é ope
 
 ## 🧭 Onde você me encontra  
 
+Meu trabalho é encurtar o caminho entre a dúvida e uma entrega em que dá pra confiar. Se o seu time está buscando alguém para QA, automação de testes ou para crescer rumo a Quality Engineering, vou gostar de conversar — é só me chamar por aqui 👇
+
 <div align="center">
+  <a href="https://thomastds.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/Portfólio-2b2b2b?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfólio">
+  </a>
   <a href="https://www.linkedin.com/in/thomasteixeira/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
@@ -97,5 +146,3 @@ Também integro agentes de IA no fluxo de trabalho para automatizar o que é ope
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
 </div>
-
-
