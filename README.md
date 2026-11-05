@@ -1,5 +1,12 @@
 <div align="center">
 
+<a href="https://github.com/ThomasTDS/Thomas_Teixeira/blob/main/README.en.md">
+  <img src="https://img.shields.io/badge/English-2b2b2b?style=for-the-badge" alt="English"/>
+</a>
+<a href="https://github.com/ThomasTDS/Thomas_Teixeira/blob/main/README.es.md">
+  <img src="https://img.shields.io/badge/Español-2b2b2b?style=for-the-badge" alt="Español"/>
+</a>
+
 # 🦖 Olá! Eu sou o Thomas  
 
 **Analista de Qualidade de Software · QA Engineer**  
