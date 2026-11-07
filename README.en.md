@@ -16,7 +16,7 @@
 <a href="https://thomastds.github.io/portfolio/">
   <img src="https://img.shields.io/badge/Portfolio-2b2b2b?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/>
 </a>
-<a href="https://thomastds.github.io/portfolio/assets/cv/Thomas_Teixeira_Curriculo.pdf">
+<a href="https://thomastds.github.io/portfolio/assets/cv/Thomas_Teixeira_Resume_EN.pdf">
   <img src="https://img.shields.io/badge/Resume-PDF-D14836?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume"/>
 </a>
 
