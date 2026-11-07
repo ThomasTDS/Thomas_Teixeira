@@ -69,13 +69,15 @@ I also use AI in my daily work to clear away repetitive tasks and keep the focus
 | Project | Description | Stack | Tests |
 |---|---|---|---|
 | **[qa-playwright-sd](https://github.com/ThomasTDS/qa-playwright-sd)** | E2E on automationexercise.com: login, registration, cart, checkout, contact, newsletter and security checks | Playwright · TypeScript · Cucumber · POM · GitHub Actions | 27 |
-| **[qa-pytest-sd](https://github.com/ThomasTDS/qa-pytest-sd)** | Python version of qa-playwright-sd | Python · Pytest · Playwright · BDD | 48 |
-| **[qa-selenium-sd](https://github.com/ThomasTDS/qa-selenium-sd)** | E2E with Selenium WebDriver using BDD | Selenium · Cucumber · POM | 17 |
-| **[restful-booker](https://github.com/ThomasTDS/restful-booker)** | API testing on Restful Booker with schema validation | Playwright · Cucumber · Zod · GitHub Actions | 12 |
-| **[qa-api-python](https://github.com/ThomasTDS/qa-api-python)** | API testing in Python with BDD and API Clients | Python · Pytest | 33 |
-| **[qa-api-swagger](https://github.com/ThomasTDS/qa-api-swagger)** | Contract and API testing on GoRest via OpenAPI | Swagger · Postman · Newman · CI | 60 |
-| **[appium-automation-framework](https://github.com/ThomasTDS/appium-automation-framework)** | BDD mobile automation framework | Appium · WebdriverIO · Cucumber · POM | 30 |
+| **[qa-pytest-sd](https://github.com/ThomasTDS/qa-pytest-sd)** | Python version of qa-playwright-sd | Python · Pytest · Playwright · BDD | 88 |
+| **[restful-booker](https://github.com/ThomasTDS/restful-booker)** | API testing on Restful Booker with schema validation | Playwright · Cucumber · Zod · GitHub Actions | 46 |
+| **[qa-api-python](https://github.com/ThomasTDS/qa-api-python)** | API testing in Python with BDD and API Clients | Python · Pytest | 104 |
+| **[qa-api-swagger](https://github.com/ThomasTDS/qa-api-swagger)** | Contract and API testing on GoRest via OpenAPI | Swagger · Postman · Newman · CI | 67 |
+| **[appium-automation-framework](https://github.com/ThomasTDS/appium-automation-framework)** | BDD mobile automation framework | Appium · WebdriverIO · Cucumber · POM | 16 |
 | **[qa-manual-testing](https://github.com/ThomasTDS/qa-manual-testing)** | Test case design, exploratory testing (SBTM) and defect reporting | Manual Testing · SBTM | 30 cases |
+| **[sql-defect-investigation](https://github.com/ThomasTDS/sql-defect-investigation)** | Investigation of 9 types of real data defects (duplicates, orphaned FKs, inconsistent status and more), from root cause to fix | SQL · PostgreSQL · GitHub Actions | 90 checks |
+| **[sql-performance-investigation](https://github.com/ThomasTDS/sql-performance-investigation)** | Investigation of 8 causes of slow SQL queries, with evidence from EXPLAIN ANALYZE | SQL · PostgreSQL · Performance | 78 checks |
+| **[crapi-security-investigation](https://github.com/ThomasTDS/crapi-security-investigation)** | API security investigation on crAPI (OWASP API Security Top 10), with evidence, CVSS and a ZAP scan in CI | Postman · Newman · OWASP ZAP | 12 vulnerabilities |
 
 ---
 
